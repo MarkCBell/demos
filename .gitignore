@@ -1,6 +1,7 @@
 syntax: glob
 
 .ipynb_checkpoints/
+env/
 *.log
 *.aux
 *.pdf
