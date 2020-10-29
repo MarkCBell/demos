@@ -1,5 +1,6 @@
-flipper
+RISE
 bigger
 curver
 cypari
-RISE
+flipper
+jupyter
