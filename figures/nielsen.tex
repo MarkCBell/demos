@@ -46,12 +46,12 @@
     }
     \begin{scope}[rotate=\r]
         \node [dot] at (240:2) {};
-        \path [draw=red, postaction={on each segment={mid arrow=red}}] ($(60:3)+(150:0.1)$)
+        \path [draw=red, postaction={on each segment={mid arrow=red}}] ($(60:2.5)+(150:0.1)$)
             to [out=240,in=60] ($(240:2)+(150:0.75)$)
             to [out=240,in=150] ($(240:2)+(240:0.75)$)
             to [out=330,in=240] ($(240:2)+(330:0.75)$)
             to [out=60,in=300] ($(240:2)+(30:0.75)$)
-            to [out=120,in=240,looseness=0.7] ($(60:3)+(330:0.1)$);
+            to [out=120,in=240,looseness=0.7] ($(60:2.5)+(330:0.1)$);
     \end{scope}
 }
 \end{tikzpicture}
